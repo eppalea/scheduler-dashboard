@@ -6,7 +6,7 @@ import Loading from "./Loading";
 
 class Dashboard extends Component {
 
-  state = { loading: true }
+  state = { loading: false }
 
   render() {
     const dashboardClasses = classnames("dashboard");
